@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<tool id="geelaxy" name="Import data from GeeFu.io" workflow_compatible="false">
+    <description>because your awesome</description>
+    <command interpreter="puthon">geelaxy.py</command>
+
+    <help>
+        Don't take advice from strangers
+    </help>
+
+</tool>
