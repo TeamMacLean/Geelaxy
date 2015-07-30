@@ -2,6 +2,9 @@
 <tool id="geelaxy" name="From GeeFu.io" workflow_compatible="false">
     <description>because your awesome</description>
     <command interpreter="puthon">geelaxy.py</command>
+    <param name="input" type="text" label="username"/>
+    <param type="select" name="repo" label="organism"/>
+    <option value="n/a">None found</option>
 
     <help>
         Don't take advice from strangers
