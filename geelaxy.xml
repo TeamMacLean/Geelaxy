@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <tool id="geelaxy" name="From GeeFu.io" workflow_compatible="false">
-    <description>because your awesome</description>
+    <description>because you're awesome</description>
     <command interpreter="puthon">geelaxy.py</command>
     <param name="input" type="text" label="username"/>
     <param type="select" name="repo" label="organism"/>
