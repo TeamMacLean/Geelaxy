@@ -2,9 +2,12 @@
 <tool id="geelaxy" name="From GeeFu.io" workflow_compatible="false">
     <description>import data from geefu.io</description>
     <command interpreter="puthon">geelaxy.py</command>
-    <param name="input" type="text" label="username"/>
-    <param type="select" name="repo" label="organism"/>
-    <option value="n/a">None found</option>
+
+    <inputs>
+
+	<param name="sigma" type="integer" value="5" min="1" label="Sigma to use when smoothing reads" help="Higher values increase computation but produce more smoothing." />
+
+    </inputs>
 
     <help>
 	Currently only supports public data
