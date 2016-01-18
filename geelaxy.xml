@@ -4,9 +4,7 @@
     <command interpreter="puthon">geelaxy.py</command>
 
     <inputs>
-
-	<param name="sigma" type="integer" value="5" min="1" label="Sigma to use when smoothing reads" help="Higher values increase computation but produce more smoothing." />
-
+	<param name="path" type="string" label="username/organism/genome/experiment" help="example: wookoouk/Ash/KW1/exp1" />
     </inputs>
 
     <help>
