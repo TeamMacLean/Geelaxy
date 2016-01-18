@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <tool id="geelaxy" name="From GeeFu.io" workflow_compatible="false">
-    <description>because you're awesome</description>
+    <description>import data from geefu.io</description>
     <command interpreter="puthon">geelaxy.py</command>
     <param name="input" type="text" label="username"/>
     <param type="select" name="repo" label="organism"/>
     <option value="n/a">None found</option>
 
     <help>
-        Don't take advice from strangers
+	Currently only supports public data
     </help>
 
 </tool>
